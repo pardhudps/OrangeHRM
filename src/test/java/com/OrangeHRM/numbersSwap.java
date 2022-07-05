@@ -9,11 +9,11 @@ public class numbersSwap {
 		System.out.println("Enter x and y");
 		x=in.nextInt();
 		y=in.nextInt();
-		System.out.println("Before swapping x =" +x +"y=" +y);
+		System.out.println("Before swapping x =" +x +", y=" +y);
 		temp =x;
 		x=y;
 		y=temp;
-		System.out.println("After swapping x =" +x +"y=" +y);
+		System.out.println("After swapping x =" +x +", y=" +y);
 	}
 
 }
